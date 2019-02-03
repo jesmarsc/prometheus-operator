@@ -30,5 +30,5 @@ spec:
   serviceMonitorNamespaceSelector: {}
   serviceMonitorSelector:
     matchLabels:
-      k8s-app: node-exporter
+      app: node-exporter
   version: v2.5.0
