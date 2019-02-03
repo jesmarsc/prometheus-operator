@@ -7,6 +7,7 @@ metadata:
   namespace: monitoring
 spec:
   endpoints:
+  
   - interval: 30s
     port: https
     scheme: http
