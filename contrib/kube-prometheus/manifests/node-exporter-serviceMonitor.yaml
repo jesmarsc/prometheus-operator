@@ -9,7 +9,7 @@ spec:
   endpoints:
     interval: 30s
     port: https
-    scheme: https
+    scheme: http
   jobLabel: k8s-app
   selector:
     matchLabels:
