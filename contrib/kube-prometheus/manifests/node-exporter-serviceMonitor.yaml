@@ -3,6 +3,7 @@ kind: ServiceMonitor
 metadata:
   labels:
     k8s-app: node-exporter
+    app: node-exporter
   name: node-exporter
   namespace: monitoring
 spec:
@@ -17,3 +18,4 @@ spec:
   selector:
     matchLabels:
       k8s-app: node-exporter
+      app: node-exporter
